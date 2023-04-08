@@ -8,6 +8,7 @@ public class LoginTest extends TestBase {
 
     public void loginTest01 (){
         driver.get("https://www.amazon.com");
+        System.out.println("hi");
 
 
     }
