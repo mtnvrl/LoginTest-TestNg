@@ -20,7 +20,8 @@ import java.time.Duration;
             driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
         }
         @After
-        public void tearDown(){
+        public void tearDown() throws InterruptedException {
              driver.quit();
+             Thread.sleep(2000);
         }
 }
