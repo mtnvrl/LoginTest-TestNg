@@ -34,6 +34,7 @@ public class SearchItemOnResultsTest extends TestBase {
             count++;
         }while (count<=2);
 
+
         WebElement findResult=driver.findElement(By.xpath("//img[@alt='Math Games with Bad Drawings: 75 1/4 Simple, Challenging, Go-Anywhere Games―And Why They Matter']"));
         Assert.assertTrue(findResult.isDisplayed());
 
