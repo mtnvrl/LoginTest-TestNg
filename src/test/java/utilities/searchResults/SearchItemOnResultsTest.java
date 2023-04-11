@@ -1,4 +1,4 @@
-package searchResults;
+package utilities.searchResults;
 
 import org.junit.Assert;
 import org.junit.Test;
