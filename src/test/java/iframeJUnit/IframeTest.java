@@ -21,7 +21,7 @@ public class IframeTest extends TestBase {
         WebElement textBox=driver.findElement(By.xpath("//body[@id='tinymce']"));
         Thread.sleep(1000);
         textBox.clear();
-        textBox.sendKeys("Hello World!");
+        textBox.sendKeys("Hello  World!");
         Thread.sleep(1000);
 
 

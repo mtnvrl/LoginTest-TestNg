@@ -20,7 +20,7 @@ public class SearchItemOnResultsTest extends TestBase {
         Select select=new Select(dropDownMenu);
         select.selectByVisibleText("Books");
 
-        driver.findElement(By.id("twotabsearchtextbox")).sendKeys("math books"+ Keys.ENTER);
+        driver.findElement(By.id("twotabsearchtextbox")).sendKeys("math  books"+ Keys.ENTER);
 
         int count=0;
         do {
