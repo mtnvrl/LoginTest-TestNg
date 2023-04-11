@@ -1,4 +1,4 @@
-package iframe;
+package iframeJUnit;
 
 import junit.framework.TestCase;
 import org.junit.Assert;

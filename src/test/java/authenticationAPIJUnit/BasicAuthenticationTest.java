@@ -1,4 +1,4 @@
-package authenticationAPI;
+package authenticationAPIJUnit;
 
 import org.junit.Test;
 import utilities.TestBase;
